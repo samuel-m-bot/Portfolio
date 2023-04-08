@@ -7,7 +7,7 @@
 }
 .skills_section h2{
     color: white;
-    padding-top: 15px;
+    padding-top: 45px;
 }
 .skill-name{
     font-size: 18px;
@@ -31,12 +31,6 @@
     position: relative;
     text-align: left;
     animation: fillbars 2.5s 1;
-}
-.skill-per h3{
-    color: black;
-    left: auto;
-    padding-left: 5%;
-    padding-top: 1%;
 }
 .skill-per::before{
     position: absolute;

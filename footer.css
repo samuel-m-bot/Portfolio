@@ -1,0 +1,25 @@
+.bottom{
+    background: radial-gradient(circle, rgb(10, 0, 123) 0%, rgb(20, 32, 86) 100%);
+    display: block;
+    padding: 3rem 0;
+    position: relative;
+    overflow: hidden;
+}
+.bottom-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom .bottom-flex #logo-bottom {
+    width: 250px;
+}
+.bottom .bottom-flex .bottom-icon a {
+    margin-left: 2rem;
+    transition: 0.3s;
+}
+@media screen and (max-width: 500px){
+    .bottom .bottom-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

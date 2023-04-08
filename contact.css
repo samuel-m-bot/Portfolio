@@ -1,0 +1,64 @@
+.contact_section{
+    background: white;
+    padding: 3rem 0;
+}
+.contact_section h2{
+    color: black;
+}
+.contact_section input, textarea, label{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+.form_contact{
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 0 0.15rem 0.6rem rgba(43, 52, 56, 0.15);
+    padding: 2rem;
+}
+input{
+    margin: 0.75rem 0;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+textarea{
+    padding: 0.75rem;
+}
+input[type=submit]{
+  background-color: #3b82f6;
+  border: 2px solid #3b82f6;
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  transition: all 0.3s;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+.container_contact{
+    background-color: #577ad9;
+    max-width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+
+}
+.container_contact a{
+    font-style: italic;
+    color: white;
+}
+.container_contact a:hover{
+    color: gray;
+}

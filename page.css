@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+html{
+    text-align: center;
+}
+.btn-blue {
+  color: white;
+  background-color: #3b82f6;
+  border: 2px solid #3b82f6;
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  transition: all 0.3s;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-blue:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+.section_title{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;  
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+.container {
+    max-width: 1200px;
+    padding: 1.5rem 1.5rem;
+    margin: auto;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }

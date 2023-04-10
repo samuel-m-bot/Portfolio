@@ -228,6 +228,7 @@ header nav .nav-container {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
+  font-size: 20px;
 }
 
 .flex a:before{

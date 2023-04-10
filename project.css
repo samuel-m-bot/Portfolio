@@ -192,4 +192,7 @@ context {
     .project_section .project_page .project-flex .flex-child.info{
         width: 100%;
     }
+    .project_section p,a{
+        font-size: 15px;
+      }
 }

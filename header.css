@@ -2,7 +2,7 @@ header {
   overflow: hidden;
   background: radial-gradient(circle, rgb(10, 0, 123) 0%, rgb(20, 32, 86) 100%);
   background-size: cover;
-  min-height: 80vh;
+  min-height: 90vh;
   position: relative;
 }
   
@@ -34,7 +34,7 @@ header h1,ul,li,p,a{
     margin-bottom: 20px;
   }
   p,a{
-    font-size: 25px;
+    font-size: 20px;
   }
 .logo-image{
     position:relative;
@@ -274,6 +274,9 @@ header nav .mobile-menu.hide-for-desktop {
   header nav .container{
     padding-bottom: 0.75rem;
  }
+ header p,a{
+  font-size: 15px;
+}
  header .hero{
   top: 65%;
  }

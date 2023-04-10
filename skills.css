@@ -19,7 +19,7 @@
 .skill-bar{
     height: 1.5rem;
     background: darkgray;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 .skill-per{
     color: black;
@@ -27,7 +27,7 @@
     height: 1.5rem;
     /* background-color: rgb(226, 145, 23); */
     background-color: white;
-    border-radius: 3px;
+    border-radius: 15px;
     position: relative;
     text-align: left;
     animation: fillbars 2.5s 1;
